@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+}
+
+.error-page{
+	padding-top: 200px;
+	text-align: center;
+}
+
+.error-page h1{
+	font-size: 100px;
+	font-family: Roboto;
+}
+
+.error-page h2{
+	font-size: 30px;
+	font-family: Roboto;
+}
+
+.error-page p{
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+nav{
+	border-top: 5px solid #FFB914;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	overflow: hidden;
+	background-color: #000411;
+	width: 100%;
+}
+
+nav li{
+	float: left;
+	padding-left: 10px;
+}
+
+nav li a{
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #E8EDDF;
+	background-color: #000411;
+}
+
+nav li a:hover{
+	color: #FFB914;
+}
+
+nav .active{
+	color: #FFB914;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	background: #E8EDDF;
+}
