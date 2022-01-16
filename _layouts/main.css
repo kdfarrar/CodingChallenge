@@ -24,8 +24,12 @@ body{
 
 .banner{
 	padding: 120px 0px 120px;
+	margin: 0px;
 	background-color: #222222;
 	border-bottom: 6px solid #B78AFF;
+	width: 100%;
+	display: block;
+	overflow: hidden;
 }
 
 .banner img{
@@ -35,6 +39,7 @@ body{
 .banner h1{
 	text-align: left;
 	padding: 0px 275px 0px 295px;
+	width: 50%;
 	font-family: Roboto;
 	font-size: 40px;
 	color: #FFFFFF;
@@ -44,18 +49,20 @@ body{
 	text-align: left;
 	padding: 0px 1000px 20px 275px;
 	margin: 20px;
+	width: 50%;
 	font-family: Roboto;
 	font-size: 18px;
 	color: #FFFFFF;
 }
 
 .about{
-	padding: 20px 1000px 20px 300px;
+	padding: 20px 20px 20px 300px;
 	margin: 20px;
+	width: 70%
 }
 
 .about h1{
-	font-family: arial;
+	font-family: Arial;
 	font-size: 25px;
 }
 
@@ -63,6 +70,17 @@ body{
 	text-align: left;
 	font-family: arial;
 	font-size: 15px;
+	width: 50%;
+}
+
+.about img{
+	float: right;
+	clear: right;
+	margin-left: 50px;
+	vertical-align: middle;
+	width: 20%;
+	height: auto;
+	border: 5px solid #000000;
 }
 
 nav ul{
@@ -97,6 +115,34 @@ nav li a:hover{
 
 nav .active{
 	color: #FFB914;
+}
+
+.social-media-panel ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	background-color: #000000;
+}
+
+.social-media-panel li{
+	float: left;
+}
+
+.social-media-panel li a{
+	display: block;
+	text-decoration: none;
+	padding: 14px 25px 14px 25px;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.social-media-panel li a:hover{
+	color: #B78AFF;
 }
 
 ::-webkit-scrollbar{
