@@ -22,38 +22,77 @@ body{
 	font-family: Roboto;
 }
 
-nav{
-	border-top: 5px solid #FFB914;
+.banner{
+	padding: 120px 0px 120px;
+	background-color: #222222;
+	border-bottom: 6px solid #B78AFF;
+}
+
+.banner img{
+	float: right;
+}
+
+.banner h1{
+	text-align: left;
+	padding: 0px 275px 0px 295px;
+	font-family: Roboto;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+.banner p{
+	text-align: left;
+	padding: 0px 1000px 20px 275px;
+	margin: 20px;
+	font-family: Roboto;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.about{
+	padding: 20px 1000px 20px 300px;
+	margin: 20px;
+}
+
+.about h1{
+	font-family: arial;
+	font-size: 25px;
+}
+
+.about p{
+	text-align: left;
+	font-family: arial;
+	font-size: 15px;
 }
 
 nav ul{
 	list-style-type: none;
+	border-left: 15px solid #B78AFF;
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
 	overflow: hidden;
-	background-color: #000411;
+	background-color: #000000;
 	width: 100%;
 }
 
 nav li{
 	float: left;
-	padding-left: 10px;
 }
 
 nav li a{
 	display: block;
-	padding: 14px 16px;
+	padding: 14px 25px 14px 25px;
 	text-align: center;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	color: #E8EDDF;
-	background-color: #000411;
+	background-color: #000000;
 }
 
 nav li a:hover{
-	color: #FFB914;
+	color: #B78AFF;
 }
 
 nav .active{
